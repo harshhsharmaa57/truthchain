@@ -10,11 +10,8 @@ Post a statement. Stake XLM. Others support it (agree) or challenge it (disagree
 
 | | |
 |---|---|
-| **Frontend** | `https://truthchain.vercel.app` |
-| **GitHub** | `https://github.com/YOUR_USERNAME/truthchain` |
-| **Contract** | `https://stellar.expert/explorer/testnet/contract/CONTRACT_ID` |
-| **Proof TX** | `https://stellar.expert/explorer/testnet/tx/TX_HASH` |
-
+| **Frontend** | `https://truthchain-seven.vercel.app` |
+| **Contract** | `https://stellar.expert/explorer/testnet/contract/CBNI5LZVOPQCBA6LZCBOASXEQ2BDYQTRRVBK7D34SQHVYRXAFQ3KCN4Q` |
 ---
 
 ## Contract Functions
