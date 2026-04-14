@@ -10,10 +10,21 @@ Post a statement. Stake XLM. Others support it (agree) or challenge it (disagree
 
 | | |
 |---|---|
-| **Frontend** | `https://truthchain-seven.vercel.app` |
-| **Contract** | `https://stellar.expert/explorer/testnet/contract/CBNI5LZVOPQCBA6LZCBOASXEQ2BDYQTRRVBK7D34SQHVYRXAFQ3KCN4Q` |
+| **Frontend** | `https://truthchain-app.vercel.app` |
+| **Contract** | `https://stellar.expert/explorer/testnet/contract/CCK3JWE6YTW7X22E3LPBCYWZMMST6G4V3U3AEQU66V4QLJF7NKGMI34X` |
+
 ---
 
+## Why This Project Matters
+
+This project turns a familiar real-world workflow into a verifiable on-chain primitive on Stellar: transparent state transitions, user-authenticated actions, and deterministic outcomes.
+
+## Architecture
+
+- **Smart Contract Layer**: Soroban contract enforces business rules, authorization, and state transitions.
+- **Client Layer**: React + Vite frontend handles wallet UX, transaction composition, and real-time status views.
+- **Wallet/Auth Layer**: Freighter signs every state-changing action so operations are attributable and non-repudiable.
+- **Infra Layer**: Stellar Testnet + Soroban RPC for execution; Vercel for frontend hosting.
 ## Contract Functions
 
 ```rust
@@ -34,4 +45,6 @@ count()           -> u64
 chmod +x scripts/deploy.sh && ./scripts/deploy.sh
 cd frontend && npm install && npm run dev
 ```
+
+
 
